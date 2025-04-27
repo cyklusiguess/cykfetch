@@ -14,4 +14,4 @@ an attempt to make a neofetch version without using external libraries
 ## features
 - arch linux only (for now)
 - no external libraries
-- minimal design
+- minimal design (i stole the ascii from pfetch LOL)
