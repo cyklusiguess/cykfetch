@@ -1,8 +1,8 @@
 # cykfetch
 an attempt to make a neofetch version without using external libraries
 
-# license
-i don't give a fuck, it's licensed under Unlicense, do whatever you want
+## license
+i don't give a fuck, it's licensed under unlicense, do whatever you want.
 
 ![cykfetch](cykfetch.png)  
 *this is how it looks like. it's arch linux only for now, i would maintain it but now taking care of my cats is enough.*
@@ -17,7 +17,7 @@ i don't give a fuck, it's licensed under Unlicense, do whatever you want
 ## features
 - arch linux only (for now)
 - no external libraries
-- minimal design (i stole the ascii from pfetch LOL)
+- minimal design (i stole the ascii from pfetch lol)
 
 ## instructions
 1. download the script
