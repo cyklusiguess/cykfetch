@@ -1,7 +1,7 @@
 # cykfetch
 an attempt to make a neofetch version without using external libraries
 
-![cykfetch](image-placeholder.jpg)  
+![cykfetch](cykfetch.png)  
 *this is how it looks like. it's arch linux only for now, i would maintain it but now taking care of my cats is enough.*
 
 ## speed comparison
