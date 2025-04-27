@@ -12,7 +12,17 @@ host=$(uname -n)
 os=$(source /etc/os-release && echo "$PRETTY_NAME")
 kernel=$(uname -r)
 kernelver=$(uname -v)
-uptime=$(awk '{print int($1/3600)" hours, "int(($1%3600)/60)" minutes"}' /proc/uptime)
+
+# uptime parsing
+uptime_seconds=$(LC_ALL=C awk '{print int($1)}' /proc/uptime)
+uptime_hours=$(( uptime_seconds / 3600 ))
+uptime_minutes=$(( (uptime_seconds / 60) % 60 ))
+if (( uptime_hours == 0 )); then
+    uptime="${uptime_minutes} minutes"
+else
+    uptime="${uptime_hours} hours, ${uptime_minutes} minutes"
+fi
+
 pkgs=$(pacman -Qq | wc -l)
 mem_total=$(awk '/MemTotal/ {print int($2/1024)"m"}' /proc/meminfo)
 mem_available=$(awk '/MemAvailable/ {print int($2/1024)"m"}' /proc/meminfo)
@@ -48,3 +58,5 @@ cat << eof
                 gpu: ${gpu}
 eof
 echo -e "$reset"
+
+# thanks y'all curious people for reading this script, listen to my favorite song: https://www.youtube.com/watch?v=DuezmOvfWpA
