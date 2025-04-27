@@ -15,3 +15,9 @@ an attempt to make a neofetch version without using external libraries
 - arch linux only (for now)
 - no external libraries
 - minimal design (i stole the ascii from pfetch LOL)
+
+## instructions
+1. download the script
+2. make it executable: `chmod +x /path/to/cykfetch.sh`
+3. run the script: `./cykfetch.sh`
+4. enjoy
