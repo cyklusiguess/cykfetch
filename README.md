@@ -5,7 +5,7 @@ an attempt to make a neofetch version without using external libraries
 i don't give a fuck, it's licensed under unlicense, do whatever you want.
 
 --------------------------------------------------------------------------
-![cykfetch](cykfetch.png)  
+![cykfetch](imgs/cykfetch.png)  
 *this is how it looks like. it's arch linux only for now, i would maintain it but now taking care of my cats is enough.*
 
 ## speed comparison (tested on amd ryzen 5 4600g)
