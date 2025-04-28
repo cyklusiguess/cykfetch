@@ -27,7 +27,7 @@ i don't give a fuck, it's licensed under unlicense, do whatever you want.
 3. run the script: `./cykfetch.sh`
 4. enjoy
 
--
+
 ## instructions for C
 1. download the C file and move it into a folder
 2. open a terminal and navigate to the folder where you placed `cykfetch.c`.
