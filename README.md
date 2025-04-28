@@ -10,10 +10,11 @@ i don't give a fuck, it's licensed under unlicense, do whatever you want.
 
 ## speed comparison (tested on amd ryzen 5 4600g)
 
-| program   | executed (ms) | user time (ms) | sys time (ms) |
-|-----------|---------------|----------------|---------------|
-| cykfetch  | 53.18         | 27.48          | 35.18         |
-| neofetch  | 391.57        | 190.42         | 196.88        |
+| program     | executed (ms) | user time (ms) | sys time (ms) |
+|-------------|---------------|---------------|---------------|
+| cykfetch     |  53.18        |  27.48         |  35.18        |
+| neofetch     | 391.57        | 190.42         | 196.88        |
+| cykfetch (C) |  17.78        |   6.74         |  12.86        |
 
 ## features
 - arch linux only (for now)
