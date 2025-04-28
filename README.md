@@ -26,3 +26,16 @@ i don't give a fuck, it's licensed under unlicense, do whatever you want.
 2. make it executable: `chmod +x /path/to/cykfetch.sh`
 3. run the script: `./cykfetch.sh`
 4. enjoy
+
+-
+## instructions for C
+1. download the C file and move it into a folder
+2. open a terminal and navigate to the folder where you placed `cykfetch.c`.
+3. install the necessary development tools if you haven't already, using the following command:
+`sudo pacman -S base-devel`
+4. compile the C file using GCC:
+`gcc -o cykfetch /path/to/cykfetch.c`
+5. make the binary file executable:
+`chmod +x ./cykfetch`
+6. run the script
+7. enjoy
