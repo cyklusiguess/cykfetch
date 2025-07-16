@@ -39,3 +39,6 @@ i don't give a fuck, it's licensed under unlicense, do whatever you want.
 `chmod +x ./cykfetch`
 6. run the script
 7. enjoy
+
+## instructions for Lua
+1. idk
